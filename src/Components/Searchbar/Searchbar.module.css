@@ -1,0 +1,35 @@
+.Searchbar {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: #b87070;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  opacity: 0.9;
+}
+
+.SearchForm {
+  width: 400px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SearchFormBbutton {
+  background: url('https://image.flaticon.com/icons/svg/149/149852.svg')
+    no-repeat center;
+  background-size: 40%;
+  width: 10%;
+  height: 100%;
+}
+.SearchFormInput {
+  width: 90%;
+  outline: none;
+  height: 80%;
+}
+.SearchFormInput::placeholder {
+  text-transform: uppercase;
+}

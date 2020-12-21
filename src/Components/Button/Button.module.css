@@ -1,0 +1,11 @@
+.newPage {
+  background-color: #b87070;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+}
